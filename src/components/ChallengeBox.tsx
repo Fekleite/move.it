@@ -10,7 +10,7 @@ import {
 } from "../styles/components/challengeBox";
 
 export function ChallengeBox() {
-  const { activeChallenge } = useContext(ChallengesContext);
+  const { activeChallenge, resetChallenge } = useContext(ChallengesContext);
 
   return (
     <ChallengeBoxContainer>
@@ -29,6 +29,7 @@ export function ChallengeBox() {
             <footer>
               <ChallengeButton
                 type="button"
+                onClick={resetChallenge}
                 failed
               >
                 Falhei
