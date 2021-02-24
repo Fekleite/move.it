@@ -50,13 +50,4 @@ export default createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    max-width: 992px;
-    margin: 0 auto;
-    padding: 2.5rem 2rem;
-  }
 `;
