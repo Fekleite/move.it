@@ -40,7 +40,7 @@
 ## Pré-requisitos:
 
 - Node.js
-- Yarn (opicional)
+- Yarn
 
 ## Como utilizar:
 
