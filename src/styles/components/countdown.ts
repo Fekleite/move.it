@@ -66,5 +66,14 @@ export const CountdownButton = styled.button<ButtonCountdownProps>`
   &:not(:disabled):hover {
     background: ${props => props.buttonActive ? "var(--red)" : "var(--blue-dark)" };
     color: var(--white);
+
+    svg {
+      color: var(--white);
+    }
+  }
+
+  svg {
+    margin-left: 8px;
+    color: ${props => props.buttonActive ? "var(--text)" : "var(--white)" };
   }
 `;
