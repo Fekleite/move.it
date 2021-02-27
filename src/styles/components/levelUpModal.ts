@@ -67,7 +67,7 @@ export const ShareButton = styled.button`
   margin-top: 2rem;
   font-weight: 600;
 
-  svg {
+  img {
     margin-left: 1rem;
   }
 `;

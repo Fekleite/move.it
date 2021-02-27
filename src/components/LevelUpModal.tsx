@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import { FaTwitter } from "react-icons/fa";
 
 import { ChallengesContext } from "../contexts/ChallengesContext";
 
@@ -26,7 +25,7 @@ export function LevelUpModal() {
         <ShareButton>
           Compartilhar no twitter
 
-          <FaTwitter size={18} color="#fff" />
+          <img src="/icons/twitter.svg" alt="Twitter"/>
         </ShareButton>
       </Container>
     </Overlay>
