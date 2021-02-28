@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Head from "next/head";
 import { MdArrowForward } from "react-icons/md";
 
 import { Container, Content, InputGroup } from "../styles/pages/login";
@@ -12,6 +13,10 @@ export default function Login() {
 
   return (
     <Container>
+      <Head>
+        <title>Login | Move.it</title>
+      </Head>
+
       <section></section>
 
       <Content>
