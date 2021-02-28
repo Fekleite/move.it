@@ -32,9 +32,13 @@
 
 ## A aplicação:
 
-<img width="46%" align="right" src="https://user-images.githubusercontent.com/48728541/109373403-4ea39f80-788d-11eb-8683-fe728d17a760.gif" />
+<img src="https://user-images.githubusercontent.com/48728541/109373403-4ea39f80-788d-11eb-8683-fe728d17a760.gif" />
 
-<img width="49%" src="https://user-images.githubusercontent.com/48728541/109373479-c671ca00-788d-11eb-81c4-a0980fe2b5b6.png" alt="Print da aplicação" />
+<img width="48%" align="right" src="https://user-images.githubusercontent.com/48728541/109429492-b9162600-79da-11eb-863f-8ee2354f18b6.png" alt="Print da aplicação" />
+
+<img width="48%"  src="https://user-images.githubusercontent.com/48728541/109429575-1b6f2680-79db-11eb-9e49-0119b79e6293.png" alt="Print da aplicação" />
+
+
 
 ## Tecnologias:
 
