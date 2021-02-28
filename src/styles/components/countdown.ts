@@ -16,7 +16,7 @@ export const CountdownContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: var(--white);
+    background: var(--shape);
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     font-size: 8.5rem;
@@ -26,11 +26,11 @@ export const CountdownContainer = styled.div`
       flex: 1;
 
       &:first-child {
-        border-right: 1px solid #f0f1f3;
+        border-right: 1px solid var(--border);
       }
 
       &:last-child {
-        border-left: 1px solid #f0f1f3;
+        border-left: 1px solid var(--border);
       }
     }
   }
@@ -50,14 +50,14 @@ export const CountdownButton = styled.button<ButtonCountdownProps>`
   justify-content: center;
   border: 0;
   border-radius: 5px;
-  background: ${props => props.buttonActive ? "var(--white)" : "var(--blue)" };
+  background: ${props => props.buttonActive ? "var(--shape)" : "var(--blue)" };
   color: ${props => props.buttonActive ? "var(--text)" : "var(--white)" };
   font-size: 1.25rem;
   font-weight: 600;
   transition: background-color 0.2s;
 
   &:disabled {
-    background: var(--white);
+    background: var(--shape);
     color: var(--text);
     border-bottom: 4px solid var(--green);
     cursor: not-allowed;

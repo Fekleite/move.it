@@ -9,16 +9,18 @@ export default createGlobalStyle`
 
   :root {
     --white: #fff;
-    --background: #f2f3f5;
-    --gray-line: #dcdde0;
-    --text: #666666;
-    --text-highlight: #b3b9ff;
-    --title: #2e384d;
+    --shape: ${props => props.theme.colors.shape};
+    --background: ${props => props.theme.colors.background};
+    --gray-line: ${props => props.theme.colors.grayLine};
+    --text: ${props => props.theme.colors.text};
+    --text-highlight: ${props => props.theme.colors.textHighlight};
+    --title: ${props => props.theme.colors.title};
     --red: #e83f5b;
     --green: #4cd62b;
     --blue: #5965e0;
     --blue-dark: #4953b8;
     --blue-twitter: #2aa9e0;
+    --border: ${props => props.theme.colors.border};
   }
 
   @media(max-width: 1080px) {

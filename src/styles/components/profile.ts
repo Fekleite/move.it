@@ -10,7 +10,7 @@ export const ProfileContainer = styled.div`
     border-radius: 50%;
   }
 
-  div {
+  > div {
     margin-left: 1.5rem;
 
     strong {
@@ -19,9 +19,15 @@ export const ProfileContainer = styled.div`
       color: var(--title);
     }
 
+    > div {
+      margin-top: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
     p {
       font-size: 1rem;
-      margin-top: 0.5rem;
 
       img {
         margin-right: 0.5rem;
