@@ -1,7 +1,6 @@
 import { createContext, ReactNode } from "react";
-import { GetServerSideProps } from "next";
 
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider, DefaultTheme } from "styled-components";
 
 import usePersistedState from "../hooks/usePersistedState";
 
@@ -13,26 +12,14 @@ interface ThemesProviderProps {
 }
 
 interface ThemesContextData {
-  theme: Theme;
+  theme: DefaultTheme;
   toggleTheme: () => void;
-}
-
-interface Theme {
-  title: string;
-  colors: {
-    shape: string;
-    background: string;
-    grayLine: string;
-    text: string;
-    textHighlight: string;
-    title: string;
-  }
 }
 
 export const ThemesContext = createContext({} as ThemesContextData);
 
 export function ThemesProvider({ children, ...rest } : ThemesProviderProps) {
-  const [theme, setTheme] = usePersistedState("theme", light);
+  const [theme, setTheme] = usePersistedState<DefaultTheme>("theme", light);
 
   function toggleTheme() {
     setTheme(theme.title === "light" ? dark : light);
