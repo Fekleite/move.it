@@ -30,6 +30,12 @@
   O Move.it é uma aplicação que utiliza a técnica de pomodoro, determinando ciclos de trabalho e exercícios para quem passa muito tempo no computador, utilizando a gamificação.
 </p>
 
+## A aplicação:
+
+<img width="46%" align="right" src="https://user-images.githubusercontent.com/48728541/109373403-4ea39f80-788d-11eb-8683-fe728d17a760.gif" />
+
+<img width="49%" src="https://user-images.githubusercontent.com/48728541/109373479-c671ca00-788d-11eb-81c4-a0980fe2b5b6.png" alt="Print da aplicação" />
+
 ## Tecnologias:
 
 - <a href="https://pt-br.reactjs.org/" > React JS </a>
@@ -45,21 +51,27 @@
 ## Como utilizar:
 
 Clone o repositório
+```bash
+# Abra o terminal e digite esse comando ou faça download do projeto
+$ git clone git@github.com:Fekleite/move.it.git
 ```
-git clone git@github.com:Fekleite/move.it.git
+
+Entre na pasta
+```bash
+$ cd move.it
 ```
 
 Instale as dependências
-```
-yarn install
-```
-
-Inicie o servidor
-```
-yarn dev
+```bash
+$ yarn install
 ```
 
-**A aplicação irá iniciar no http://localhost:3000**
+Inicie a aplicação
+```bash
+$ yarn dev
+```
+
+Abra seu navegador no endereço http://localhost:3000
 
 ## Licença:
 
